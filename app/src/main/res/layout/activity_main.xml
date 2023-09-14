@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/meme" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:text="Preparing for Preparing for placements and dont know where to start ? GFG has used their years of experience and put together this list for you. It is a compilation of the most popular DSA problems ranging from topics like arrays, hashing, tree, graph etc. The list contains problems across easy, medium, hard difficulty.Preparing for placements and dont know where to start ? GFG has used their years of experience and put together this list for you. It is a compilation of the most popular DSA problems ranging from topics like arrays, hashing, tree, graph etc. The list contains problems across easy, medium, hard difficulty.placements and don't know where to start ? GFG has used their years of experience and put together this list for you. It is a compilation of the most popular DSA problems ranging from topics like arrays, hashing, tree, graph etc. The list contains problems across easy, medium, hard difficulty.Preparing for placements and dont know where to start ? GFG has used their years of experience and put together this list for you. It is a compilation of the most popular DSA problems ranging from topics like arrays, hashing, tree, graph etc. The list contains problems across easy, medium, hard difficulty."
+        android:textSize="15dp" />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/meme" />
+
+</LinearLayout>
